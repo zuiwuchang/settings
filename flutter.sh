@@ -41,6 +41,7 @@ case "$1" in
         cd "$BashDir"
         flutter run
     ;;
+
     a|android)
         shift
         export Command="$0 android"
