@@ -1,9 +1,16 @@
 # settings
 
-https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/provider/Settings.java
+A new Flutter project.
 
-minSdkVersion 19(android 4.4)
+## Getting Started
 
-朝鮮生產的 android tv 設備很多都掩耳盜鈴的去隱藏了打開 android 系統設定的頁面。這導致無法調整系統設定(例如 修改語言 打開 dark ui等)。
+This project is a starting point for a Flutter application.
 
-如果你不巧在朝鮮或使用這些朝鮮設備，可以安裝本 app，這個 app 沒有任何價值，它只是簡單的打開被朝鮮廠商隱藏起來的 android 自帶的設定頁面。希望有朝一日沒有人類在需要這個 app
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

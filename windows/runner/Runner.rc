@@ -93,7 +93,7 @@ BEGIN
             VALUE "FileDescription", "settings" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "settings" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.king011. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.king011. All rights reserved." "\0"
             VALUE "OriginalFilename", "settings.exe" "\0"
             VALUE "ProductName", "settings" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:settings/tv/focusable.dart';
 
 /// 打開一個 顯示錯誤的 模式對話框
 Future<void> showErrorMessageDialog(BuildContext context, e) {
@@ -19,11 +18,9 @@ Future<void> showErrorMessageDialog(BuildContext context, e) {
           ),
         ),
         actions: <Widget>[
-          FocusableWidget(
-            child: TextButton(
-              child: Text(MaterialLocalizations.of(context).closeButtonLabel),
-              onPressed: () => Navigator.of(context).pop(),
-            ),
+          TextButton(
+            child: Text(MaterialLocalizations.of(context).closeButtonLabel),
+            onPressed: () => Navigator.of(context).pop(),
           ),
         ],
       );
@@ -51,11 +48,9 @@ Future<void> showErrorListMessageDialog(BuildContext context, List? errors) {
           ),
         ),
         actions: <Widget>[
-          FocusableWidget(
-            child: TextButton(
-              child: Text(MaterialLocalizations.of(context).closeButtonLabel),
-              onPressed: () => Navigator.of(context).pop(),
-            ),
+          TextButton(
+            child: Text(MaterialLocalizations.of(context).closeButtonLabel),
+            onPressed: () => Navigator.of(context).pop(),
           ),
         ],
       );
